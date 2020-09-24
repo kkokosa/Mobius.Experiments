@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CalliApp": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}

@@ -1,0 +1,2 @@
+#define UNMANAGEDLIBRARY_API __declspec(dllexport)
+#define UNMANAGEDLIBRARY_API __declspec(dllimport)

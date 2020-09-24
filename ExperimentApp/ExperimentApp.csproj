@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Iced" Version="1.5.0" />
+    <PackageReference Include="ObjectLayoutInspector" Version="0.1.1" />
+    <PackageReference Include="PeNet" Version="1.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="data\ConsoleApp-Adding.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="data\ConsoleApp.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
